@@ -1,0 +1,264 @@
+/*Ediciones generales de las etiquetas*/
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*Empieza edición de navbar*/
+.navbar {
+  background-color: #03a9f4;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.ngnt {
+  color: #1a1a1a;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  font-size: 40px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+/*Termina edición de navbars*/
+
+/* Empieza edición Carrusel*/
+.hero {
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: #ffffff;
+}
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  background-size: auto;
+}
+
+/*
+.carousel-caption {
+  bottom: 220px;
+}
+*/
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.carousel-caption h5 {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 2px solid #ffffff;
+}
+
+.topmargin-sm {
+  margin-top: 30px;
+}
+
+.iocon-10 {
+  font-size: 14px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+section h2 {
+  margin-top: 120px;
+}
+
+/* Bootstrap JQuerie. Uso para solucionar textos en pantallase */
+@media (max-width: 575.98px) {
+  .carousel-caption h5 {
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/* Edición section Portafolio*/
+
+.portafolio-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.portafolio-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.portafolio-details a h2,
+.portafolio-details a p {
+  color: #1a1a1a;
+}
+
+.portafolio-details h2 {
+  margin-bottom: 0px;
+}
+
+.portafolio-container img {
+  -moz-transition: all 0.08s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.portafolio-container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.portafolio-container2 h2,
+.portafolio-container2 p {
+  color: #1a1a1a;
+}
+
+/*Edición Section Experience*/
+
+.bg-light-grey {
+  background-color: #f5f5f5;
+}
+
+.content-center h2 {
+  margin: 0;
+  padding: 40px;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.content-center hr {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+.isearch {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin: 0;
+  font-size: 15px;
+  line-height: 0.8;
+  text-align: center;
+}
+
+.image-skilles,
+.img-fl,
+.center-img {
+  margin-top: 60px;
+}
+
+.content-progres {
+  max-width: 800px;
+}
+
+.content-progress p {
+  text-align: center;
+}
+
+.topmargin-sm {
+  margin-top: 100px;
+}
+
+.form-control {
+  font-size: 14px;
+  border: 1px solid #cacacaca;
+  padding: 15px;
+  border-radius: 2px;
+  height: auto;
+}
+
+.form-control:focus {
+  border: 1px, solid #1a1a1a;
+  outline: none;
+  box-shadow: none;
+}
+
+/*Edición de footer */
+
+.bg-light-blue {
+  background-color: #007bff !important;
+}
+
+#footer {
+  padding: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+#footer a:hover {
+  color: #ffffff;
+}
+
+#footer .list-inline .list-inline-item {
+  padding: 10px, 15px;
+}
