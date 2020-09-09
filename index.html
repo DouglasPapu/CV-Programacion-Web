@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" type="/img/favicon-32x32" sizes="32x32" href="/img/favicon-32x32.png">
+  </head>
+  <body>
+    <!--Inicio del Navbars  navbar-light bg-light -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><span class="iocon-10"
+            ><ion-icon name="person-circle-outline"></ion-icon></span
+          ><span class="ngnt">NT</span> PROFILE</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" id="home" href="#hero"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#portafolio-section"
+                id="profile"
+              >
+                Profile
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="expriences" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="services" href="#skills"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="portafolio" href="#cv-media">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contactus" href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Fin del Navbars-->
+
+    <!--Inicio de Carrousell-->
+    <section id="hero"></section>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1515098506762-79e1384e9d8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80"
+              class="d-block w-100"
+              alt="csll-1"
+            />
+            <div class="carousel-caption">
+              <h5>Douglas Lopez</h5>
+              <p>Systems Engineer Student</p>
+              <button type="button" class="btn btn-info">
+                More Info <ion-icon name="add-circle-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1555421689-d68471e189f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              class="d-block w-100"
+              alt="csll-2"
+            />
+            <div class="carousel-caption">
+              <h5>Douglas Lopez</h5>
+              <p>Systems Engineer Student</p>
+              <button type="button" class="btn btn-info">
+                More Info <ion-icon name="add-circle-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              class="d-block w-100"
+              alt="csll-3"
+            />
+            <div class="carousel-caption">
+              <h5>Douglas Lopez</h5>
+              <p>Systems Engineer Student</p>
+              <button type="button" class="btn btn-info">
+                More Info <ion-icon name="add-circle-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- Fin del Carrousell -->
+
+     <!--Inicio primera section: My Profile-->
+    <!--Welcome to my personal page!-->
+    <section id="portafolio-section">
+      <div class="container-fluid">
+        <div class="content-center">
+          <h2><b>Welcome To My Personal Page!</b></h2>
+          <h4>Hi there! Explore my resume!</h4>
+        </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <div class="portafolio-container">
+                  <div class="portafolio-details">
+                    <a href="#"><h2>My Profile Photo</h2>
+                  </a>
+                  <a href="#">
+                    <p>Systems Engineer</p>
+                  </a>
+                  </div>
+                  <img src="https://freisteller24.eu/wp-content/uploads/2017/10/666164992.jpg" class="img-fluid" alt="porf1">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portafolio-container2">
+                  <div class="portafolio-details2 content-center">
+                    <a href="#"><h2><b>About Me</b></h2>
+                  </a>
+                  <a href="#">
+                    <p> 
+                      Hello, I am a systems engineering student. I study at the Icesi University and I am in the eighth semester. I have knowledge about Front-End and Back-End development. Now I am learning use Frameworks for Web Development. 
+                      I am a person who adapts very well to teamwork. My favorite hobby is playing guitar, and I train swimming.</p>
+                  </a>
+                  <button type="button" class="btn btn-primary">Visit my portafolio</button>
+                  </div>
+              </div>
+            </div>
+            
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Terminado primera section: My Profile-->
+
+    <!--Inicio de section de experiencia-->
+    <section id="experience" class="bg-light-grey">
+        <div class="container">
+          <div class="content-center">
+            <h2><b>My Experience <i class="fa fa-search" aria-hidden="true"></i></b></h2>
+            <hr/>
+          </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="exp1">
+                  <div class="card-body">
+                    <h5 class="card-title">Architect</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore now </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="exp2">
+                  <div class="card-body">
+                    <h5 class="card-title">Programmer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore now <span class="isearch"></i> </span></ion-icon> </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="exp3">
+                  <div class="card-body">
+                    <h5 class="card-title">Doctor</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore now </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="exp4">
+                  <div class="card-body">
+                    <h5 class="card-title">Doctor</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore now </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="exp5">
+                  <div class="card-body">
+                    <h5 class="card-title">Architect</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore now </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem;">
+                  <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="exp6">
+                  <div class="card-body">
+                    <h5 class="card-title">Programmer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Explore now </a>
+                  </div>
+                </div>
+              </div>
+          </div>            
+        </div>
+    </section>
+    <!--Terminado section de Experience-->
+
+    <!--Inicio de zona de Progress-->
+    <section id="skills">
+      <div class="container-fluid">   
+       <div class="container">
+        <div class="row">
+            <div class="col-md-6 center-img">
+              <div class="image-skilles">
+                <img src="https://cdn.goconqr.com/uploads/media/image/13022373/3082919e-176f-4639-9b05-fc2dbb6466a6.png" class="img-fl" alt="porf1">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="content-progress">
+                <h2><b>Programming Skills</b></h2>
+                <p>
+                  Here I present some skills and knowledge according to my handling of programming languages. I focus a lot on back-end development but I also do front-end development very well</p>
+              </div>
+              <p>PHP</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+              </div>
+              <p>Javascript</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              </div>
+              <p>Python</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+              <p>Java</p>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+              <p></p>
+              <p></p>
+           </div>        
+          </div>
+        </div>
+      </div>
+      
+    </section>
+       <!--FIN de zona de Progress-->
+
+
+    <!--Section de Media-->
+    <section id="cv-media" class="bg-light-grey">
+      <div class="container-fluid">
+        <div class="content-center">
+          <h2><b>Conferences made by me</b></h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, sit ipsa libero illo dolor magnam cum iusto dignissimos dolore nam eaque quasi modi praesentium officiis harum. Eveniet veritatis fugiat ipsam.</p>
+        </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+              <div class="portafolio-container">
+                <ul class="list-unstyled">
+                  <li class="media">
+                    <img src="../img/google.png" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Conferece Google</h5>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <img src="../img/facebook.png" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Conference Facebook</h5>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                  </li>
+                  <li class="media">
+                    <img src="../img/microsoft.png" class="mr-3" alt="...">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Conference Microsoft</h5>
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="portafolio-container2">
+                <img src="https://davenisc.com/wp-content/uploads/2020/02/persona-para-pop-up.png" class="img-fluid" alt="porf1">
+              </div>
+            </div>          
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FIN DE SECTION MEDIA-->
+
+    <!--INICIO DE SECTION CONTACT ME-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 topmargin-sm">
+              <h3>Do you want to contact me?
+                <b>just let me know</b>
+              </h3>
+
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, deleniti, quia nisi expedita ratione veniam ullam illo sunt nesciunt reiciendis voluptatibus placeat quis repellendus temporibus ipsum numquam atque, pariatur odio.</p>
+
+            </div>
+            <div class="col-md-6 topmargin-sm">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="" placeholder="Name"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="" placeholder="Name"/>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                    <form class="form-group">
+                      <input type="email" class="form-control" id="" placeholder="ejemplo@correo.com"/>
+                    </form>
+                  </div>
+                  <div class="col-md-12">
+                    <form class="form-group">
+                      <input type="text" class="form-control" id="" placeholder="Company name"/>
+                    </form>
+                  </div>
+                  <div class="col-md-12">
+                    <form class="form-group">
+                      <input type="number" class="form-control" id="" placeholder="Phone number (optional)"/>
+                    </form>
+                  </div>
+                  <div class="col-md-12">
+                    <a href="#" class="btn btn-dark container-fluid"> Contact me</a>
+                  </div>
+                </div>  
+                <p></p>
+                <br>          
+            </div>              
+        </div>
+      </div>
+    </section>
+  <!--FIN DE SECTION MEDIA-->
+
+  <!--INICIO DE SECTION FOOTER-->
+  <section id="footer" class="bg-light-blue">
+      <div class="container">
+        <ul class="list-inline">
+            <li class="list-inline-item footer-menu"> <a href="#">Home</a></li>
+            <li class="list-inline-item footer-menu"> <a href="#portafolio-section">Profile</a></li>
+            <li class="list-inline-item footer-menu"> <a href="#experience">Experience</a></li>
+            <li class="list-inline-item footer-menu"> <a href="#skills">Skills</a></li>
+            <li class="list-inline-item footer-menu"> <a href="#cv-media">Media</a></li>
+            <li class="list-inline-item footer-menu"> <a href="#contact">Contact me</a></li>
+        </ul>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon name="logo-twitch"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        </ul>
+        <small>©2020 All Rights Reserved. Created by Douglas Lopez Mena</small>
+      </div>
+  </section>
+  <!--FIN DE SECTION FOOTER-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  </body>
+</html>
